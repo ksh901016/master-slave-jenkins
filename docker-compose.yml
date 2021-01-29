@@ -11,6 +11,6 @@ services:
       - slave01
   slave01:
     container_name: slave01
-    image: jenkins/ssh-slave
+    image: jenkins/ssh-agent
     environment:
       - JENKINS_AGENT_SSH_PUBKEY=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC9WDj0g1PSiB33AqFlc/euC6bH7qLYfwJVjH7FioOBdpOda49oUlwpJhWyS6LQr6C7vcflXp/xkBr6LCoQnu8N3ieU2QNlDL8BBui03c/Jcqabjtpyv9sJxKtV0yiAS9Z6PBPJC9rv9dqYW5HI9F/XJHuAq/HBMg6HQUJgcztwqj0Jw/A5YavJG9tgDFr5Qr1QAaiLaG0hUqUT52n+e1yx01gwQSIO2dFRlA9OnQ3965h60B/AOuBwOF7I6luUaSCW/ET5EgaPkMeIKWEryrEHrNEblfuVF3Dyc3QTfo5QdCWwslz5No/ov1XZVTm8KEhkrOtWfRmwYtlctmq/xKAx
